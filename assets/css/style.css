@@ -1,0 +1,24 @@
+@import url("https://fonts.googleapis.com/css?family=Fira+Sans:100,200,300,400");
+.main {
+  font-size: 6rem; }
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit; }
+
+html {
+  font-size: 62.5%; }
+
+body {
+  font-family: 'Fira Sans';
+  font-weight: 300;
+  padding: 3rem;
+  box-sizing: border-box;
+  background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%); }
+
+.logo-box__text {
+  font-size: 6rem;
+  font-weight: 100; }

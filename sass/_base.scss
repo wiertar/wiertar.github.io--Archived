@@ -1,0 +1,25 @@
+:root {
+  //css variables go here
+}
+
+//scss variables go here
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%; /// 1rem = 10px
+}
+
+body {
+  font-family: 'Fira Sans';
+  font-weight: 300;
+  padding: 3rem;
+  box-sizing: border-box;
+  background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);
+}

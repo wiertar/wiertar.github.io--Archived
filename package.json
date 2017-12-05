@@ -1,0 +1,14 @@
+{
+  "name": "wiertar-github-io",
+  "version": "1.0.0",
+  "description": "My portfolio site",
+  "main": "index.js",
+  "author": "Richard Wiertalla",
+  "license": "MIT",
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss assets/css/style.css"
+  },
+  "devDependencies": {
+    "node-sass": "^4.7.2"
+  }
+}
