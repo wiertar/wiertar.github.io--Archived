@@ -1,4 +1,16 @@
 @import url("https://fonts.googleapis.com/css?family=Fira+Sans:100,200,300,400");
+.container {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);
+  height: 100%;
+  width: 100%;
+  padding: 2rem; }
+
 .header {
   display: flex;
   justify-content: space-between;
@@ -7,8 +19,11 @@
 .main {
   font-size: 6rem; }
 
+.footer {
+  position: relative; }
+
 :root {
-  --color-primary-1: #3498db;
+  --color-primary-1: #0250c5;
   --color-primary-2: #2980b9;
   --color-secondary-1: #e74c3c;
   --color-secondary-2: #c0392b; }
@@ -26,16 +41,15 @@ html {
 body {
   font-family: 'Fira Sans';
   font-weight: 300;
-  padding: 2rem;
-  box-sizing: border-box;
-  background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%); }
+  box-sizing: border-box; }
 
 .nav__group {
   list-style-type: none; }
 
 .nav__item {
   display: inline-block;
-  padding: 0 1rem; }
+  padding: 0 1rem;
+  transform: translateY(1rem); }
 
 .nav__link {
   text-decoration: none;
@@ -43,12 +57,19 @@ body {
   padding: 1rem;
   font-weight: 100;
   text-transform: uppercase;
-  border: 1px solid var(--color-primary-2);
-  color: var(--color-primary-2);
-  border-radius: 3px; }
+  color: var(--color-primary-2); }
 
-.nav__link:active {
-  font-size: 1rem; }
+.nav__link:after {
+  display: block;
+  content: '';
+  border-bottom: 3px solid #eee;
+  margin-top: 1rem;
+  transform: scaleX(0);
+  transition: transform .2s ease-in-out; }
+
+.nav__link:hover:after {
+  transform: scaleX(1);
+  transform-origin: center; }
 
 .logo-box__text {
   font-size: 6rem;

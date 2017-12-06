@@ -1,6 +1,6 @@
 :root {
   //css variables go here
-  --color-primary-1: #3498db;
+  --color-primary-1: #0250c5;
   --color-primary-2: #2980b9;
   --color-secondary-1: #e74c3c;
   --color-secondary-2: #c0392b;
@@ -23,7 +23,6 @@ html {
 body {
   font-family: 'Fira Sans';
   font-weight: 300;
-  padding: 2rem;
   box-sizing: border-box;
-  background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);
+ 
 }
