@@ -51,9 +51,11 @@
   font-weight: 100;
   color: #eee;
   padding: 2rem;
+  margin-bottom: 30rem;
+  margin-top: 20rem;
 
   &__sub {
-
+    
   }
 }
 
@@ -76,7 +78,7 @@
   &__title {
     font-size: 5rem;
     text-align: center;
-    padding: 3rem;
+    margin-top: 6rem;
   }
 
   &__item {
@@ -91,6 +93,12 @@
   font-size: 2rem;
   background-color: #eee;
   font-weight: 100;
+
+  &__title {
+    font-size: 5rem;
+    text-align: center;
+    padding: 3rem;
+  }
 }
 
 .contact {
@@ -99,4 +107,34 @@
   font-size: 2rem;
   background-color: #eee;
   font-weight: 100;
+
+  &__title {
+    font-size: 5rem;
+    text-align: center;
+    padding: 3rem;
+  }
+}
+
+.form {
+  text-align: center;
+
+  &__text {
+    border: none;
+    padding: 2rem 4rem;
+    margin: 0 2rem;
+  }
+
+  &__email {
+    border: none;
+    padding: 2rem 4rem;
+    margin: 0 2rem;
+  }
+
+  &__submit {
+    border: 1px solid var(--color-primary-1);
+    padding: 1rem 3rem;
+    border-radius: 3px;
+    margin-left: 1rem;
+    font-size: 2rem;
+  }
 }

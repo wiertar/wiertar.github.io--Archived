@@ -83,7 +83,9 @@ body {
   font-size: 4rem;
   font-weight: 100;
   color: #eee;
-  padding: 2rem; }
+  padding: 2rem;
+  margin-bottom: 30rem;
+  margin-top: 20rem; }
 
 .logo-box__text {
   font-size: 6rem;
@@ -99,7 +101,7 @@ body {
   .skills__title {
     font-size: 5rem;
     text-align: center;
-    padding: 3rem; }
+    margin-top: 6rem; }
   .skills__item {
     margin: 3rem 25rem; }
 
@@ -109,6 +111,10 @@ body {
   font-size: 2rem;
   background-color: #eee;
   font-weight: 100; }
+  .projects__title {
+    font-size: 5rem;
+    text-align: center;
+    padding: 3rem; }
 
 .contact {
   display: flex;
@@ -116,3 +122,24 @@ body {
   font-size: 2rem;
   background-color: #eee;
   font-weight: 100; }
+  .contact__title {
+    font-size: 5rem;
+    text-align: center;
+    padding: 3rem; }
+
+.form {
+  text-align: center; }
+  .form__text {
+    border: none;
+    padding: 2rem 4rem;
+    margin: 0 2rem; }
+  .form__email {
+    border: none;
+    padding: 2rem 4rem;
+    margin: 0 2rem; }
+  .form__submit {
+    border: 1px solid var(--color-primary-1);
+    padding: 1rem 3rem;
+    border-radius: 3px;
+    margin-left: 1rem;
+    font-size: 2rem; }
