@@ -17,12 +17,16 @@
   padding: 2rem; }
 
 .main {
-  font-size: 3rem; }
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 2rem 2rem rgba(0, 0, 0, 0.3); }
 
 .footer {
   position: relative;
   display: block;
-  background-color: red; }
+  background-color: #eee;
+  font-size: 3rem;
+  font-weight: 100; }
 
 :root {
   --color-primary-1: #0250c5;
@@ -87,11 +91,17 @@ body {
   font-weight: 100; }
 
 .skills {
-  background-color: orangered;
-  box-shadow: 0 4rem 15rem rgba(0, 0, 0, 0.3); }
+  font-size: 3rem;
+  font-weight: 100;
+  background-color: #eee;
+  box-shadow: 0 2rem 2rem rgba(0, 0, 0, 0.3); }
 
 .projects {
-  background-color: purple; }
+  font-size: 3rem;
+  background-color: #eee;
+  font-weight: 100; }
 
 .contact {
-  background-color: crimson; }
+  font-size: 3rem;
+  background-color: #eee;
+  font-weight: 100; }
