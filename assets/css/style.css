@@ -24,7 +24,8 @@
 .footer {
   background-color: #eee;
   font-size: 3rem;
-  font-weight: 100; }
+  font-weight: 100;
+  height: 30vh; }
 
 :root {
   --color-primary-1: #0250c5;
@@ -48,7 +49,9 @@ body {
   box-sizing: border-box; }
 
 .nav {
-  align-self: flex-end; }
+  align-self: flex-end;
+  margin-top: 4rem;
+  margin-right: 4rem; }
   .nav__group {
     list-style-type: none; }
   .nav__item {
@@ -95,7 +98,8 @@ body {
   flex-direction: column;
   font-size: 2rem;
   font-weight: 100;
-  flex-grow: 2; }
+  flex-grow: 2;
+  background-color: #F62459; }
   .skills__title {
     font-size: 5rem;
     text-align: center;
@@ -107,13 +111,20 @@ body {
     font-size: 3rem; }
   .skills__title--backend {
     font-size: 3rem; }
+  .skills__section--frontend {
+    margin-left: 8rem; }
+  .skills__section--backend {
+    margin-left: 8rem; }
+  .skills__section--backend > .skills__item:last-child {
+    margin-bottom: 8rem; }
 
 .projects {
   display: flex;
   flex-direction: column;
   font-size: 2rem;
   font-weight: 100;
-  flex-grow: 2; }
+  flex-grow: 2;
+  background-color: #26A65B; }
   .projects__title {
     font-size: 5rem;
     text-align: center;
