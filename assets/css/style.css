@@ -19,6 +19,7 @@
 
 .main {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between; }
 
 .footer {
@@ -91,6 +92,20 @@ body {
   font-size: 6rem;
   font-weight: 100; }
 
+.education {
+  width: 100%;
+  padding: 8rem; }
+  .education__title {
+    font-size: 5rem;
+    font-weight: 100; }
+  .education__school {
+    font-size: 3rem;
+    font-weight: 100;
+    margin-top: 8rem; }
+  .education__degree {
+    font-size: 3rem;
+    font-weight: 100; }
+
 .skills {
   display: flex;
   flex-shrink: 0;
@@ -98,7 +113,8 @@ body {
   flex-direction: column;
   font-size: 2rem;
   font-weight: 100;
-  width: 50%;
+  width: 33.333333%;
+  min-width: 33rem;
   background-color: #F62459; }
   .skills__title {
     font-size: 5rem;
@@ -120,10 +136,12 @@ body {
 
 .projects {
   display: flex;
+  justify-content: flex-start;
   flex-direction: column;
   font-size: 2rem;
   font-weight: 100;
-  width: 50%;
+  width: 66.6666666%;
+  min-width: 66rem;
   background-color: #26A65B; }
   .projects__title {
     font-size: 5rem;
@@ -133,8 +151,8 @@ body {
     display: flex;
     flex-direction: column; }
   .projects__item > img {
-    background-size: cover;
-    width: 100%; }
+    background-size: contain;
+    width: 50%; }
 
 .contact {
   display: flex;
