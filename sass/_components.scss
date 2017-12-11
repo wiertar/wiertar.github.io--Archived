@@ -103,37 +103,29 @@
   min-width: 33rem;
   background-color: #F62459;
 
+  &__group {
+    align-self: center;
+  }
+
   &__title {
     font-size: 5rem;
-    text-align: center;
     margin: 8rem 0;
   }
 
   &__item {
     font-size: 2rem;
-    margin: 3rem;
+    margin-left: 2rem;
   }
 
   &__title--frontend {
     font-size: 3rem;
+    padding: 1rem 0;
   }
 
   &__title--backend {
     font-size: 3rem;
+    padding: 1rem 0;
   }
-
-  &__section--frontend {
-    margin-left: 8rem;
-  }
-
-  &__section--backend {
-    margin-left: 8rem;
-  }
-
-  &__section--backend > &__item:last-child {
-    margin-bottom: 8rem;
-  }
-  
 }
 
 .projects {
@@ -155,11 +147,19 @@
   &__group {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+  }
+
+  &__item {
+    align-self: center;
+    overflow: hidden;
+    padding: 2rem;
+    padding-top: 0;
+
   }
 
   &__item > img {
-    background-size: contain;
-    width: 50%;
+    width: 100%;
   }
 }
 
