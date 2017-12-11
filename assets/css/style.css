@@ -50,6 +50,7 @@ body {
 
 .nav {
   margin-top: 4rem;
+  margin-right: 4rem;
   display: flex;
   justify-content: flex-end; }
   .nav__group {
@@ -94,7 +95,8 @@ body {
   margin-bottom: 2rem; }
   .logo-box__img {
     border-radius: 50%;
-    height: 25rem; }
+    height: 30rem;
+    box-shadow: 0 5rem 15rem rgba(0, 0, 0, 0.3); }
 
 .education {
   width: 100%;
@@ -118,8 +120,7 @@ body {
   font-size: 2rem;
   font-weight: 100;
   width: 33.333333%;
-  min-width: 33rem;
-  background-color: #F62459; }
+  min-width: 33rem; }
   .skills__group {
     align-self: center; }
   .skills__title {
@@ -142,8 +143,7 @@ body {
   font-size: 2rem;
   font-weight: 100;
   width: 66.6666666%;
-  min-width: 66rem;
-  background-color: #26A65B; }
+  min-width: 66rem; }
   .projects__title {
     font-size: 5rem;
     text-align: center;

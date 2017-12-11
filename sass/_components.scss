@@ -1,7 +1,6 @@
 .nav {
   margin-top: 4rem;
-  // margin-right: 4rem;
-  // margin-left: 4rem;
+  margin-right: 4rem;
   display: flex;
   justify-content: flex-end;
 
@@ -69,10 +68,11 @@
 .logo-box {
   align-self: center;
   margin-bottom: 2rem;
-  
+
   &__img {
     border-radius: 50%;
-    height: 25rem;
+    height: 30rem;
+    box-shadow: 0 5rem 15rem rgba(0,0,0,.3);
   }
 }
 
@@ -106,7 +106,7 @@
   font-weight: 100;
   width: 33.333333%;
   min-width: 33rem;
-  background-color: #F62459;
+  //background-color: #F62459;
 
   &__group {
     align-self: center;
@@ -141,7 +141,7 @@
   font-weight: 100;
   width: 66.6666666%;
   min-width: 66rem;
-  background-color: #26A65B;
+  //background-color: #26A65B;
 
   &__title {
     font-size: 5rem;
