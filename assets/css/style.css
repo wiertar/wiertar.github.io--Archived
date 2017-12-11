@@ -49,13 +49,14 @@ body {
   box-sizing: border-box; }
 
 .nav {
-  align-self: flex-end;
   margin-top: 4rem;
-  margin-right: 4rem; }
+  display: flex;
+  justify-content: flex-end; }
   .nav__group {
-    list-style-type: none; }
+    align-self: flex-end;
+    list-style-type: none;
+    display: flex; }
   .nav__item {
-    display: inline-block;
     padding: 0 1rem;
     transform: translateY(1rem); }
   .nav__link {
@@ -88,9 +89,12 @@ body {
   margin-bottom: 30rem;
   margin-top: 20rem; }
 
-.logo-box__text {
-  font-size: 6rem;
-  font-weight: 100; }
+.logo-box {
+  align-self: center;
+  margin-bottom: 2rem; }
+  .logo-box__img {
+    border-radius: 50%;
+    height: 25rem; }
 
 .education {
   width: 100%;
@@ -126,7 +130,7 @@ body {
     margin-left: 2rem; }
   .skills__title--frontend {
     font-size: 3rem;
-    padding: 1rem 0; }
+    padding-bottom: 1rem; }
   .skills__title--backend {
     font-size: 3rem;
     padding: 1rem 0; }
@@ -147,7 +151,8 @@ body {
   .projects__group {
     display: flex;
     flex-direction: column;
-    justify-content: center; }
+    justify-content: center;
+    margin-bottom: 7rem; }
   .projects__item {
     align-self: center;
     overflow: hidden;
