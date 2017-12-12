@@ -79,6 +79,7 @@
 .education {
   width: 100%;
   padding: 8rem;
+  background-color: #d6eaf8;
 
   &__title {
     font-size: 5rem;
@@ -106,10 +107,10 @@
   font-weight: 100;
   width: 33.333333%;
   min-width: 33rem;
-  //background-color: #F62459;
+  background-color: #85c1e9;
 
   &__group {
-    align-self: center;
+    margin-left: 8rem;
   }
 
   &__title {
@@ -120,6 +121,10 @@
   &__item {
     font-size: 2rem;
     margin-left: 2rem;
+  }
+
+  &__item:last-child {
+    margin-bottom: 8rem;
   }
 
   &__title--frontend {
@@ -141,7 +146,7 @@
   font-weight: 100;
   width: 66.6666666%;
   min-width: 66rem;
-  //background-color: #26A65B;
+  background-color: #aed6f1;
 
   &__title {
     font-size: 5rem;
@@ -173,8 +178,9 @@
   display: flex;
   flex-direction: column;
   font-size: 2rem;
-  background-color: #eee;
+  background-color: #1b4f72;
   font-weight: 100;
+  color: white;
 
   &__title {
     font-size: 5rem;

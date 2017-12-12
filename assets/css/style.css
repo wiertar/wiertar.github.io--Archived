@@ -100,7 +100,8 @@ body {
 
 .education {
   width: 100%;
-  padding: 8rem; }
+  padding: 8rem;
+  background-color: #d6eaf8; }
   .education__title {
     font-size: 5rem;
     font-weight: 100; }
@@ -120,15 +121,18 @@ body {
   font-size: 2rem;
   font-weight: 100;
   width: 33.333333%;
-  min-width: 33rem; }
+  min-width: 33rem;
+  background-color: #85c1e9; }
   .skills__group {
-    align-self: center; }
+    margin-left: 8rem; }
   .skills__title {
     font-size: 5rem;
     margin: 8rem 0; }
   .skills__item {
     font-size: 2rem;
     margin-left: 2rem; }
+  .skills__item:last-child {
+    margin-bottom: 8rem; }
   .skills__title--frontend {
     font-size: 3rem;
     padding-bottom: 1rem; }
@@ -143,7 +147,8 @@ body {
   font-size: 2rem;
   font-weight: 100;
   width: 66.6666666%;
-  min-width: 66rem; }
+  min-width: 66rem;
+  background-color: #aed6f1; }
   .projects__title {
     font-size: 5rem;
     text-align: center;
@@ -165,8 +170,9 @@ body {
   display: flex;
   flex-direction: column;
   font-size: 2rem;
-  background-color: #eee;
-  font-weight: 100; }
+  background-color: #1b4f72;
+  font-weight: 100;
+  color: white; }
   .contact__title {
     font-size: 5rem;
     text-align: center;
