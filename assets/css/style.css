@@ -100,7 +100,7 @@ body {
 .education {
   width: 100%;
   padding: 8rem;
-  background-color: #3498db;
+  background-color: #3A539B;
   color: white; }
   .education__title {
     font-size: 5rem;
@@ -121,7 +121,7 @@ body {
   font-size: 2rem;
   font-weight: 100;
   flex-grow: 1;
-  background-color: #27ae60;
+  background-color: #1E8BC3;
   color: white; }
   .skills__group {
     padding: 8rem; }
@@ -147,7 +147,7 @@ body {
   font-size: 2rem;
   font-weight: 100;
   flex-grow: 3;
-  background-color: #2ecc71;
+  background-color: #1E8BC3;
   color: white; }
   .projects__title {
     font-size: 5rem;
@@ -171,7 +171,7 @@ body {
   display: flex;
   flex-direction: column;
   font-size: 2rem;
-  background-color: #1abc9c;
+  background-color: #3A539B;
   font-weight: 100;
   color: white; }
   .contact__title {
@@ -181,7 +181,7 @@ body {
 
 .form {
   text-align: center;
-  margin-bottom: 8rem; }
+  margin-bottom: 16rem; }
   .form__element {
     border: none;
     padding: 2rem 4rem;
@@ -194,5 +194,5 @@ body {
     margin-left: 1rem;
     font-size: 2rem;
     font-weight: 100;
-    background-color: #16a085;
+    background-color: #19B5FE;
     color: white; }
