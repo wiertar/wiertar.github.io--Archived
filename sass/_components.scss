@@ -1,6 +1,5 @@
 .nav {
   margin-top: 4rem;
-  margin-right: 4rem;
   display: flex;
   justify-content: flex-end;
 
@@ -79,7 +78,8 @@
 .education {
   width: 100%;
   padding: 8rem;
-  background-color: #d6eaf8;
+  background-color: #3498db;
+  color: white;
 
   &__title {
     font-size: 5rem;
@@ -106,9 +106,8 @@
   font-size: 2rem;
   font-weight: 100;
   flex-grow: 1;
-  // width: 33.333333%;
-  // max-width: 40rem;
-  background-color: #85c1e9;
+  background-color: #27ae60;
+  color: white;
 
   &__group {
     padding: 8rem;
@@ -145,36 +144,33 @@
   flex-direction: column;
   font-size: 2rem;
   font-weight: 100;
-  // width: 66.6666666%;
   flex-grow: 3;
-  // min-width: 66rem;
-  background-color: #aed6f1;
+  background-color: #2ecc71;
+  color: white;
 
   &__title {
     font-size: 5rem;
     margin-top: 8rem;
     margin-bottom: 4rem;
-    margin-left: 4rem;
+    margin-left: 3rem;
   }
 
   &__group {
     display: flex;
     flex-direction: column;
-    // justify-content: flex-start;
     margin-bottom: 7rem;
   }
 
   &__item {
     align-self: flex-start;
-    overflow: hidden;
     padding: 2rem;
     margin-left: 2rem;
     padding-top: 0;
-
   }
 
   &__item > img {
     width: 100%;
+    box-shadow: 0 4rem 6rem rgba(0, 0, 0, 0.3);
   }
 }
 
@@ -182,7 +178,7 @@
   display: flex;
   flex-direction: column;
   font-size: 2rem;
-  background-color: #1b4f72;
+  background-color: #1abc9c;
   font-weight: 100;
   color: white;
 
@@ -197,23 +193,29 @@
   text-align: center;
   margin-bottom: 8rem;
 
-  &__text {
-    border: none;
-    padding: 2rem 4rem;
-    margin: 0 2rem;
-  }
+  // &__text {
+  //   border: none;
+  //   padding: 2rem 4rem;
+  //   margin: 0 2rem;
+  //   font-size: 2rem;
+  // }
 
-  &__email {
+  &__element {
     border: none;
     padding: 2rem 4rem;
     margin: 0 2rem;
+    font-size: 2rem;
+    box-shadow: 0 4rem 5rem rgba(0, 0, 0, 0.3);
   }
 
   &__submit {
-    border: 1px solid var(--color-primary-1);
-    padding: 1rem 3rem;
-    border-radius: 3px;
+    border: none;
+    padding: 2rem 4rem;
+    // border-radius: 3px;
     margin-left: 1rem;
     font-size: 2rem;
+    font-weight: 100;
+    background-color: #16a085;
+    color: white;
   }
 }

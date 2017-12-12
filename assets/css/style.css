@@ -50,7 +50,6 @@ body {
 
 .nav {
   margin-top: 4rem;
-  margin-right: 4rem;
   display: flex;
   justify-content: flex-end; }
   .nav__group {
@@ -101,7 +100,8 @@ body {
 .education {
   width: 100%;
   padding: 8rem;
-  background-color: #d6eaf8; }
+  background-color: #3498db;
+  color: white; }
   .education__title {
     font-size: 5rem;
     font-weight: 100; }
@@ -121,7 +121,8 @@ body {
   font-size: 2rem;
   font-weight: 100;
   flex-grow: 1;
-  background-color: #85c1e9; }
+  background-color: #27ae60;
+  color: white; }
   .skills__group {
     padding: 8rem; }
   .skills__title {
@@ -146,30 +147,31 @@ body {
   font-size: 2rem;
   font-weight: 100;
   flex-grow: 3;
-  background-color: #aed6f1; }
+  background-color: #2ecc71;
+  color: white; }
   .projects__title {
     font-size: 5rem;
     margin-top: 8rem;
     margin-bottom: 4rem;
-    margin-left: 4rem; }
+    margin-left: 3rem; }
   .projects__group {
     display: flex;
     flex-direction: column;
     margin-bottom: 7rem; }
   .projects__item {
     align-self: flex-start;
-    overflow: hidden;
     padding: 2rem;
     margin-left: 2rem;
     padding-top: 0; }
   .projects__item > img {
-    width: 100%; }
+    width: 100%;
+    box-shadow: 0 4rem 6rem rgba(0, 0, 0, 0.3); }
 
 .contact {
   display: flex;
   flex-direction: column;
   font-size: 2rem;
-  background-color: #1b4f72;
+  background-color: #1abc9c;
   font-weight: 100;
   color: white; }
   .contact__title {
@@ -180,17 +182,17 @@ body {
 .form {
   text-align: center;
   margin-bottom: 8rem; }
-  .form__text {
+  .form__element {
     border: none;
     padding: 2rem 4rem;
-    margin: 0 2rem; }
-  .form__email {
-    border: none;
-    padding: 2rem 4rem;
-    margin: 0 2rem; }
+    margin: 0 2rem;
+    font-size: 2rem;
+    box-shadow: 0 4rem 5rem rgba(0, 0, 0, 0.3); }
   .form__submit {
-    border: 1px solid var(--color-primary-1);
-    padding: 1rem 3rem;
-    border-radius: 3px;
+    border: none;
+    padding: 2rem 4rem;
     margin-left: 1rem;
-    font-size: 2rem; }
+    font-size: 2rem;
+    font-weight: 100;
+    background-color: #16a085;
+    color: white; }
