@@ -15,7 +15,8 @@
   justify-content: space-between;
   padding: 2rem;
   background-image: linear-gradient(to top, #00c6fb 0%, #005bea 100%);
-  box-shadow: 0 3rem 20rem rgba(0, 78, 98, 0.3); }
+  box-shadow: 0 3rem 20rem rgba(0, 78, 98, 0.3);
+  height: 100rem; }
 
 .main {
   display: flex;
@@ -87,7 +88,7 @@ body {
   color: #eee;
   padding: 2rem;
   margin-bottom: 30rem;
-  margin-top: 20rem; }
+  margin-top: 15rem; }
 
 .logo-box {
   align-self: center;
@@ -195,4 +196,7 @@ body {
     font-size: 2rem;
     font-weight: 100;
     background-color: #19B5FE;
-    color: white; }
+    color: white;
+    transition: transform .2s ease-in-out; }
+  .form__submit:active {
+    transform: translateY(2px); }

@@ -57,7 +57,7 @@
   color: #eee;
   padding: 2rem;
   margin-bottom: 30rem;
-  margin-top: 20rem;
+  margin-top: 15rem;
 
   &__sub {
     
@@ -209,5 +209,10 @@
     font-weight: 100;
     background-color: #19B5FE;
     color: white;
+    transition: transform .2s ease-in-out;
+  }
+
+  &__submit:active {
+    transform: translateY(2px);
   }
 }
