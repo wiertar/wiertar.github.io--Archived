@@ -213,21 +213,26 @@
   display: flex;
   flex-direction: column;
   text-align: center;
+  justify-content: center;
   margin-bottom: 16rem;
 
   &__element {
-    display: inline-block;
+    display: block;
     border: none;
     padding: 2rem 4rem;
-    margin: 0 2rem;
+    margin: 2rem auto;
     font-size: 2rem;
     box-shadow: 0 4rem 5rem rgba(0, 0, 0, 0.3);
+
+    // @include respond(tab-port) {
+    //   padding: 1.5rem 2rem;
+    // }
   }
 
   &__submit {
     border: none;
-    padding: 2rem 4rem;
-    margin-left: 1rem;
+    padding: 2rem 10.8rem;
+    margin-top: 2rem;
     font-size: 2rem;
     font-weight: 100;
     background-color: #19B5FE;
