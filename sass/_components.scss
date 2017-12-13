@@ -129,6 +129,10 @@
 
   &__item:last-child {
     margin-bottom: 4rem;
+
+    @include respond(tab-port) {
+      margin-bottom: 2rem;
+    }
   }
 
   &__title--frontend {
@@ -158,6 +162,11 @@
     margin-top: 8rem;
     margin-bottom: 4rem;
     margin-left: 3rem;
+
+    @include respond(tab-port) {
+      margin-top: 0;
+      margin-left: 8rem;
+    }
   }
 
   &__group {
@@ -171,6 +180,12 @@
     padding: 2rem;
     margin-left: 2rem;
     padding-top: 0;
+
+    @include respond(tab-port) {
+      padding: 0 6rem;
+      align-self: center;
+      margin-bottom: 2rem;
+    }
   }
 
   &__item > img {
@@ -186,7 +201,6 @@
   background-color: #3A539B;
   font-weight: 100;
   color: white;
-  
 
   &__title {
     font-size: 5rem;
@@ -196,10 +210,13 @@
 }
 
 .form {
+  display: flex;
+  flex-direction: column;
   text-align: center;
   margin-bottom: 16rem;
 
   &__element {
+    display: inline-block;
     border: none;
     padding: 2rem 4rem;
     margin: 0 2rem;

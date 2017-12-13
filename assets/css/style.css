@@ -40,7 +40,7 @@ body {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between; }
-  @media (max-width: 56.25em) {
+  @media (max-width: 66.25em) {
     .main {
       flex-wrap: nowrap;
       flex-direction: column; } }
@@ -54,7 +54,7 @@ body {
   margin-top: 4rem;
   display: flex;
   justify-content: flex-end; }
-  @media (max-width: 56.25em) {
+  @media (max-width: 66.25em) {
     .nav {
       justify-content: center;
       font-size: 1.5rem; } }
@@ -138,6 +138,9 @@ body {
     margin-left: 2rem; }
   .skills__item:last-child {
     margin-bottom: 4rem; }
+    @media (max-width: 66.25em) {
+      .skills__item:last-child {
+        margin-bottom: 2rem; } }
   .skills__title--frontend {
     font-size: 3rem;
     padding-bottom: 1rem;
@@ -160,6 +163,10 @@ body {
     margin-top: 8rem;
     margin-bottom: 4rem;
     margin-left: 3rem; }
+    @media (max-width: 66.25em) {
+      .projects__title {
+        margin-top: 0;
+        margin-left: 8rem; } }
   .projects__group {
     display: flex;
     flex-direction: column;
@@ -169,6 +176,11 @@ body {
     padding: 2rem;
     margin-left: 2rem;
     padding-top: 0; }
+    @media (max-width: 66.25em) {
+      .projects__item {
+        padding: 0 6rem;
+        align-self: center;
+        margin-bottom: 2rem; } }
   .projects__item > img {
     width: 100%;
     box-shadow: 0 4rem 6rem rgba(0, 0, 0, 0.3); }
@@ -186,9 +198,12 @@ body {
     margin: 8rem 0; }
 
 .form {
+  display: flex;
+  flex-direction: column;
   text-align: center;
   margin-bottom: 16rem; }
   .form__element {
+    display: inline-block;
     border: none;
     padding: 2rem 4rem;
     margin: 0 2rem;
