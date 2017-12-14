@@ -54,7 +54,7 @@ body {
   font-weight: 100; }
 
 .nav {
-  margin-top: 4rem;
+  margin-top: 2rem;
   display: flex;
   justify-content: flex-end; }
   @media (max-width: 37.5em) {
@@ -125,14 +125,21 @@ body {
   @media (max-width: 37.5em) {
     .education {
       padding: 4rem; } }
+  .education__group {
+    display: flex;
+    flex-direction: column; }
+  .education__logo {
+    width: 25rem;
+    margin-top: 4rem; }
   .education__title {
     font-size: 5rem;
     font-weight: 100; }
   .education__school {
     font-size: 3rem;
     font-weight: 100;
-    margin-top: 8rem; }
+    margin-top: 4rem; }
   .education__degree {
+    margin-top: 2rem;
     font-size: 3rem;
     font-weight: 100; }
 
@@ -183,7 +190,7 @@ body {
   color: white; }
   .projects__title {
     font-size: 5rem;
-    padding: 4rem 8rem; }
+    padding: 4rem 1.6rem; }
     @media (max-width: 66.25em) {
       .projects__title {
         text-align: center; } }
@@ -213,7 +220,7 @@ body {
   background-color: #4B77BE;
   font-weight: 100;
   color: white;
-  padding: 4rem 8rem; }
+  padding: 4rem 4rem; }
   .contact__title {
     font-size: 5rem;
     text-align: center; }
@@ -224,7 +231,7 @@ body {
   text-align: center;
   justify-content: center;
   margin-top: 4rem;
-  margin-bottom: 6rem; }
+  margin-bottom: 4rem; }
   .form__element {
     display: block;
     border: none;

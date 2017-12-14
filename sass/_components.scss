@@ -1,5 +1,5 @@
 .nav {
-  margin-top: 4rem;
+  margin-top: 2rem;
   display: flex;
   justify-content: flex-end;
 
@@ -104,6 +104,20 @@
     padding: 4rem;
   }
 
+  &__group {
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__logo {
+    width: 25rem;
+    margin-top: 4rem;
+  }
+
+  &__img {
+    
+  }
+
   &__title {
     font-size: 5rem;
     font-weight: 100;
@@ -112,10 +126,11 @@
   &__school {
     font-size: 3rem;
     font-weight: 100;
-    margin-top: 8rem;
+    margin-top: 4rem;
   }
 
   &__degree {
+    margin-top: 2rem;
     font-size: 3rem;
     font-weight: 100;
   }
@@ -185,7 +200,7 @@
 
   &__title {
     font-size: 5rem;
-    padding: 4rem 8rem;
+    padding: 4rem 1.6rem;
 
     @include respond(tab-port) {
       text-align: center;
@@ -227,7 +242,7 @@
   background-color: #4B77BE;
   font-weight: 100;
   color: white;
-  padding: 4rem 8rem;
+  padding: 4rem 4rem;
 
   &__title {
     font-size: 5rem;
@@ -241,7 +256,7 @@
   text-align: center;
   justify-content: center;
   margin-top: 4rem;
-  margin-bottom: 6rem;
+  margin-bottom: 4rem;
 
   &__element {
     display: block;
