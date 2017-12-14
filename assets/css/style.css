@@ -128,7 +128,7 @@ body {
   .education__group {
     display: flex;
     flex-direction: column; }
-  .education__logo {
+  .education__img {
     width: 25rem;
     margin-top: 4rem; }
   .education__title {
