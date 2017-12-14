@@ -5,7 +5,6 @@
 
   @include respond(phone) {
     justify-content: center;
-    font-size: 1.5rem;
   }
 
   &__group {
@@ -193,7 +192,7 @@
     }
 
     @include respond(phone) {
-      padding: 4rem;
+      padding: 4rem 2rem;
     }
   }
 
@@ -206,13 +205,12 @@
   &__item {
     align-self: flex-start;
     padding: 2rem;
-    margin-left: 2rem;
-    padding-top: 0;
 
     @include respond(tab-port) {
       padding: 0 6rem;
       align-self: center;
       margin-bottom: 2rem;
+      // padding: 2rem;
     }
   }
 
@@ -234,7 +232,6 @@
   &__title {
     font-size: 5rem;
     text-align: center;
-    
   }
 }
 
@@ -244,21 +241,26 @@
   text-align: center;
   justify-content: center;
   margin-top: 4rem;
-  margin-bottom: 16rem;
+  margin-bottom: 6rem;
 
   &__element {
     display: block;
     border: none;
-    padding: 2rem 6rem;
+    width: 70%;
+    padding: 2rem;
     margin: 2rem auto;
     font-size: 2rem;
     box-shadow: 0 4rem 5rem rgba(0, 0, 0, 0.3);
 
+    @include respond(phone) {
+      width: 100%;
+    }
   }
 
   &__submit {
     border: none;
-    padding: 2rem 12.8rem;
+    padding: 2rem 0;
+    width: 70%;
     margin-top: 4rem;
     font-size: 2rem;
     font-weight: 100;
@@ -266,6 +268,10 @@
     color: white;
     transition: transform .2s ease-in-out;
     border-radius: 0;
+
+    @include respond(phone) {
+      width: 100%;
+    }
   }
 
   &__submit:active {
