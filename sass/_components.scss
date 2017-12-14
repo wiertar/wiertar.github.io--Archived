@@ -70,7 +70,7 @@
   @include respond(phone) {
     font-size: 2.5rem;
     margin-top: 0;
-    margin-bottom: 10rem;
+    margin-bottom: 5rem;
   }
 
   &__sub {
@@ -222,10 +222,9 @@
     padding: 2rem;
 
     @include respond(tab-port) {
-      padding: 0 6rem;
+      padding: 0 4rem;
       align-self: center;
       margin-bottom: 2rem;
-      // padding: 2rem;
     }
   }
 
@@ -266,7 +265,9 @@
     margin: 2rem auto;
     font-size: 2rem;
     box-shadow: 0 4rem 5rem rgba(0, 0, 0, 0.3);
-
+    resize: none;
+    font-family: inherit;
+    
     @include respond(phone) {
       width: 100%;
     }

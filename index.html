@@ -13,9 +13,8 @@
     <header class="header">
       <nav class="nav">
         <ul class="nav__group">
-          <li class="nav__item"><a href="#" class="nav__link">Skills</a></li>
-          <li class="nav__item"><a href="#" class="nav__link">Projects</a></li>
-          <li class="nav__item"><a href="#" class="nav__link">Contact</a></li>
+          <li class="nav__item"><a href="#projects-skills" class="nav__link">Projects/Skills</a></li>
+          <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
         </ul>
       </nav>
       <div class="heading">
@@ -40,7 +39,7 @@
           <div class="education__degree">Bachelor's of Computer Information Systems</div>
         </div>
       </section>
-      <section class="skills">
+      <section class="skills" id="projects-skills">
         <div class="skills__group">
           <div class="skills__title">Skills</div>
           <div class="skills__section--frontend">
@@ -69,14 +68,12 @@
         </div>
       </section>
     </main>
-    <section class="contact">
+    <section class="contact" id="contact">
       <div class="contact__title">Contact Me</div>
       <div class="form">
-        <form id="form">
-          <label for="_replayto">Your E-mail</label>
-          <input type="email" name="_replyto" class="form__element">
-          <label for="name">Your Message</label>
-          <input type="text" name="name" class="form__element">
+        <form id="form" method="POST" action="https://formspree.io/rwiertalladeveloper@gmail.com">
+          <input name="email" placeholder="Your email" type="email" class="form__element">
+          <textarea name="message" placeholder="Your message" class="form__element"></textarea>
           <input id="submit" type="submit" value="Submit" class="form__submit">
           <input type="text" name="_gotcha" style="display:none" />
         </form> 
