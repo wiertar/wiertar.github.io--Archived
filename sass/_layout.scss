@@ -14,6 +14,10 @@
   background-image: linear-gradient(to top, #00c6fb 0%, #005bea 100%);
   box-shadow: 0 3rem 20rem rgba(0, 78, 98, .3);
   height: 100rem;
+
+  @include respond(phone) {
+    height: 70rem;
+  }
 }
 
 .main {

@@ -3,7 +3,7 @@
   display: flex;
   justify-content: flex-end;
 
-  @include respond(tab-port) {
+  @include respond(phone) {
     justify-content: center;
     font-size: 1.5rem;
   }
@@ -26,6 +26,10 @@
     font-weight: 100;
     text-transform: uppercase;
     color: #eee;
+
+    @include respond(phone) {
+      font-size: 1.7rem;
+    }
   }
 
   &__link:after {
@@ -64,6 +68,12 @@
   margin-bottom: 30rem;
   margin-top: 15rem;
 
+  @include respond(phone) {
+    font-size: 2.5rem;
+    margin-top: 0;
+    margin-bottom: 10rem;
+  }
+
   &__sub {
     
   }
@@ -77,14 +87,23 @@
     border-radius: 50%;
     height: 30rem;
     box-shadow: 0 5rem 15rem rgba(0,0,0,.3);
+
+    @include respond(phone) {
+      height: 20rem;
+      margin-top: 0;
+    }
   }
 }
 
 .education {
   width: 100%;
-  padding: 8rem;
-  background-color: #3A539B;
+  padding: 4rem 8rem;
+  background-color: #22313F;
   color: white;
+
+  @include respond(phone) {
+    padding: 4rem;
+  }
 
   &__title {
     font-size: 5rem;
@@ -111,11 +130,19 @@
   font-size: 2rem;
   font-weight: 100;
   flex-grow: 1;
-  background-color: #1E8BC3;
+  background-color: #3A539B;
   color: white;
 
   &__group {
-    padding: 8rem;
+    padding: 4rem 8rem;
+
+    @include respond(tab-port) {
+      text-align: center;
+    }
+
+    @include respond(phone) {
+      padding: 4rem;
+    }
   }
 
   &__title {
@@ -154,25 +181,26 @@
   font-size: 2rem;
   font-weight: 100;
   flex-grow: 3;
-  background-color: #1E8BC3;
+  background-color: #3A539B;
   color: white;
 
   &__title {
     font-size: 5rem;
-    margin-top: 8rem;
-    margin-bottom: 4rem;
-    margin-left: 3rem;
+    padding: 4rem 8rem;
 
     @include respond(tab-port) {
-      margin-top: 0;
-      margin-left: 8rem;
+      text-align: center;
+    }
+
+    @include respond(phone) {
+      padding: 4rem;
     }
   }
 
   &__group {
     display: flex;
     flex-direction: column;
-    margin-bottom: 7rem;
+    margin-bottom: 4rem;
   }
 
   &__item {
@@ -198,14 +226,15 @@
   display: flex;
   flex-direction: column;
   font-size: 2rem;
-  background-color: #3A539B;
+  background-color: #4B77BE;
   font-weight: 100;
   color: white;
+  padding: 4rem 8rem;
 
   &__title {
     font-size: 5rem;
     text-align: center;
-    margin: 8rem 0;
+    
   }
 }
 
@@ -214,25 +243,23 @@
   flex-direction: column;
   text-align: center;
   justify-content: center;
+  margin-top: 4rem;
   margin-bottom: 16rem;
 
   &__element {
     display: block;
     border: none;
-    padding: 2rem 4rem;
+    padding: 2rem 6rem;
     margin: 2rem auto;
     font-size: 2rem;
     box-shadow: 0 4rem 5rem rgba(0, 0, 0, 0.3);
 
-    // @include respond(tab-port) {
-    //   padding: 1.5rem 2rem;
-    // }
   }
 
   &__submit {
     border: none;
-    padding: 2rem 10.8rem;
-    margin-top: 2rem;
+    padding: 2rem 12.8rem;
+    margin-top: 4rem;
     font-size: 2rem;
     font-weight: 100;
     background-color: #19B5FE;
