@@ -219,11 +219,10 @@
 
   &__item {
     align-self: flex-start;
-    padding: 2rem;
-    
+    margin: 2rem auto;
 
     @include respond(tab-port) {
-      padding: 0 4rem;
+      padding: 0 2rem;
       align-self: center;
       margin-bottom: 2rem;
     }

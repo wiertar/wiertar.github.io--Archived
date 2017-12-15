@@ -203,10 +203,10 @@ body {
     margin-bottom: 4rem; }
   .projects__item {
     align-self: flex-start;
-    padding: 2rem; }
+    margin: 2rem auto; }
     @media (max-width: 66.25em) {
       .projects__item {
-        padding: 0 4rem;
+        padding: 0 2rem;
         align-self: center;
         margin-bottom: 2rem; } }
   .projects__info {
