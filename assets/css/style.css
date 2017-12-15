@@ -209,9 +209,31 @@ body {
         padding: 0 4rem;
         align-self: center;
         margin-bottom: 2rem; } }
-  .projects__item > img {
+  .projects__info {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: 0 auto;
+    transform: translate(-50%, -50%);
+    z-index: 100;
+    font-size: 3rem;
+    text-align: center;
+    background-color: #22313F;
+    padding: 2%; }
+    .projects__info a, .projects__info a:active, .projects__info a:link, .projects__info a:hover, .projects__info a:visited {
+      display: block;
+      color: inherit;
+      text-decoration: none;
+      background-color: #19B5FE;
+      margin: 1rem auto; }
+  .projects__img {
+    position: relative; }
+  .projects__img > img {
     width: 100%;
-    box-shadow: 0 4rem 6rem rgba(0, 0, 0, 0.3); }
+    box-shadow: 0 4rem 6rem rgba(0, 0, 0, 0.3);
+    max-height: 45rem;
+    transition: all .2s ease-in-out;
+    backface-visibility: hidden; }
 
 .contact {
   display: flex;
