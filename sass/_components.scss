@@ -97,7 +97,8 @@
 .education {
   width: 100%;
   padding: 4rem 8rem;
-  background-color: #22313F;
+  
+  background-color: #004C79;
   color: white;
 
   @include respond(phone) {
@@ -144,11 +145,12 @@
   font-size: 2rem;
   font-weight: 100;
   flex-grow: 1;
-  background-color: #3A539B;
+  background-color: #2980B9;
   color: white;
 
   &__group {
-    padding: 4rem 8rem;
+    padding: 0 4rem;
+    margin: 4rem auto;
 
     @include respond(tab-port) {
       text-align: center;
@@ -195,12 +197,13 @@
   font-size: 2rem;
   font-weight: 100;
   flex-grow: 3;
-  background-color: #3A539B;
+  background-color: #44BBFF;
   color: white;
 
   &__title {
     font-size: 5rem;
-    padding: 4rem 1.6rem;
+    // padding: 4rem 1.6rem;
+    margin: 4rem auto;
 
     @include respond(tab-port) {
       text-align: center;
@@ -266,7 +269,7 @@
   display: flex;
   flex-direction: column;
   font-size: 2rem;
-  background-color: #4B77BE;
+  background-color: #004C79;
   font-weight: 100;
   color: white;
   padding: 4rem 4rem;

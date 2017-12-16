@@ -120,7 +120,7 @@ body {
 .education {
   width: 100%;
   padding: 4rem 8rem;
-  background-color: #22313F;
+  background-color: #004C79;
   color: white; }
   @media (max-width: 37.5em) {
     .education {
@@ -151,10 +151,11 @@ body {
   font-size: 2rem;
   font-weight: 100;
   flex-grow: 1;
-  background-color: #3A539B;
+  background-color: #2980B9;
   color: white; }
   .skills__group {
-    padding: 4rem 8rem; }
+    padding: 0 4rem;
+    margin: 4rem auto; }
     @media (max-width: 66.25em) {
       .skills__group {
         text-align: center; } }
@@ -186,11 +187,11 @@ body {
   font-size: 2rem;
   font-weight: 100;
   flex-grow: 3;
-  background-color: #3A539B;
+  background-color: #44BBFF;
   color: white; }
   .projects__title {
     font-size: 5rem;
-    padding: 4rem 1.6rem; }
+    margin: 4rem auto; }
     @media (max-width: 66.25em) {
       .projects__title {
         text-align: center; } }
@@ -239,7 +240,7 @@ body {
   display: flex;
   flex-direction: column;
   font-size: 2rem;
-  background-color: #4B77BE;
+  background-color: #004C79;
   font-weight: 100;
   color: white;
   padding: 4rem 4rem; }
