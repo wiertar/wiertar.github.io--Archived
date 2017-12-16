@@ -151,7 +151,7 @@ body {
   font-size: 2rem;
   font-weight: 100;
   flex-grow: 1;
-  background-color: #2980B9;
+  background-color: #199EC7;
   color: white; }
   .skills__group {
     padding: 0 4rem;
@@ -184,7 +184,7 @@ body {
   font-size: 2rem;
   font-weight: 100;
   flex-grow: 3;
-  background-color: #44BBFF;
+  background-color: #2980B9;
   color: white; }
   .projects__title {
     font-size: 5rem;
