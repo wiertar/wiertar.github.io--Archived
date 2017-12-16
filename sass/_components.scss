@@ -155,10 +155,6 @@
     @include respond(tab-port) {
       text-align: center;
     }
-
-    @include respond(phone) {
-      padding: 4rem;
-    }
   }
 
   &__title {
@@ -202,15 +198,10 @@
 
   &__title {
     font-size: 5rem;
-    // padding: 4rem 1.6rem;
     margin: 4rem auto;
 
     @include respond(tab-port) {
       text-align: center;
-    }
-
-    @include respond(phone) {
-      padding: 4rem 2rem;
     }
   }
 
