@@ -258,14 +258,17 @@ body {
     font-size: 2rem;
     box-shadow: 0 4rem 5rem rgba(0, 0, 0, 0.3);
     resize: none;
-    font-family: inherit; }
+    font-family: inherit;
+    max-width: 50rem; }
     @media (max-width: 37.5em) {
       .form__element {
-        width: 100%; } }
+        width: 100%;
+        max-width: none; } }
   .form__submit {
     border: none;
     padding: 2rem 0;
     width: 70%;
+    max-width: 50rem;
     margin-top: 4rem;
     font-size: 2rem;
     font-weight: 100;
@@ -275,6 +278,7 @@ body {
     border-radius: 0; }
     @media (max-width: 37.5em) {
       .form__submit {
-        width: 100%; } }
+        width: 100%;
+        max-width: none; } }
   .form__submit:active {
     transform: translateY(2px); }
