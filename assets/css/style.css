@@ -37,7 +37,7 @@ body {
   height: 100rem; }
   @media (max-width: 37.5em) {
     .header {
-      height: 60rem; } }
+      height: 72rem; } }
 
 .main {
   display: flex;
@@ -98,12 +98,16 @@ body {
   color: #eee;
   padding: 2rem;
   margin-bottom: 30rem;
-  margin-top: 15rem; }
+  margin-top: 10rem; }
+  .heading span {
+    margin: 6rem 0; }
   @media (max-width: 37.5em) {
     .heading {
       font-size: 2.5rem;
       margin-top: 0;
-      margin-bottom: 5rem; } }
+      margin-bottom: 8rem; } }
+  .heading__sub {
+    max-width: 60%; }
 
 .logo-box {
   align-self: center;
@@ -275,7 +279,8 @@ body {
     background-color: #19B5FE;
     color: white;
     transition: transform .2s ease-in-out;
-    border-radius: 0; }
+    border-radius: 0;
+    cursor: pointer; }
     @media (max-width: 37.5em) {
       .form__submit {
         width: 100%;
